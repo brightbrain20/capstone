@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [capstone project] <a name="about-project">HTML/CSS & JavaScript capstone project - Conference page</a>
 
-> Describe your project in 1 or 2 sentences.
+
 
 **[conference setup]** setting up the home page and about me page.
 
@@ -128,7 +128,7 @@ step 1:
 Clone this repo locally using git in the command line and the following command
 
 ```
-git clone https://github.com/brightbrain20/CAPSTONE-PROJECT.git
+git clone https://github.com/brightbrain20/Capstone.git
 ```
 
 Alternatively, you can just download the complete zip file and extract the folder in your directory
@@ -143,7 +143,7 @@ Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
 👤 **BRIGHT .C. EZEAMAKA**
 
