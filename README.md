@@ -118,7 +118,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link](https://brightbrain20.github.io/capstone-project/)
+- [Live Demo Link](https://brightbrain20.github.io/capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ step 1:
 Clone this repo locally using git in the command line and the following command
 
 ```
-git clone https://github.com/brightbrain20/Capstone.git
+git clone https://github.com/brightbrain20/capstone.git
 ```
 
 Alternatively, you can just download the complete zip file and extract the folder in your directory
