@@ -5,6 +5,7 @@ const guestSpeacker = document.querySelector('#guest');
 const hamburger = document.querySelector('.hamburger');
 const mobileLink = document.querySelectorAll('.mobile-link');
 const mobileMenue = document.querySelector('.mobile-menu');
+const seeMoreBtn = document.querySelector('.seemore');
 function mobileToggleClassActive() {
   hamburger.classList.toggle('active');
   mobileMenue.classList.toggle('active');
@@ -19,32 +20,8 @@ guestSpeacker.innerHTML = `
 <h2 class="feature-h2">Featured Speakers</h2>
     <hr class="feature-hr">
     <div class="feature-container">
-      <div class="speakers">
-        <div class="guestSpeaker">
-          <div class="guestSpeaker-img">
-            <img src="${speaker[0].image}" class="quest-img" alt="img">
-          </div>
-          <div class="content">
-            <h2 class="name">${speaker[0].name}</h2>
-            <p class="profession">${speaker[0].profession}
-            </p>
-
-            <p class="about-me">${speaker[0].aboutMe}</p>
-          </div>
-        </div>
-        <div class="guestSpeaker">
-          <div class="guestSpeaker-img">
-            <img src="${speaker[1].image}" class="quest-img" alt="img">
-          </div>
-          <div class="content">
-            <h2 class="name">${speaker[1].name}</h2>
-            <p class="profession">${speaker[1].profession}</p>
-
-            <p class="about-me">${speaker[1].aboutMe}</p>
-          </div>
-        </div>
-      </div>
-      <div>
+    
+      <div >
         <div class="guestSpeaker">
           <div class="guestSpeaker-img">
             <img src="${speaker[2].image}" class="quest-img" alt="img">
@@ -68,5 +45,43 @@ guestSpeacker.innerHTML = `
           </div>
         </div>
       </div>
+      <div class="speakers display show">
+        <div class="guestSpeaker">
+          <div class="guestSpeaker-img">
+            <img src="${speaker[0].image}" class="quest-img" alt="img">
+          </div>
+          <div class="content">
+            <h2 class="name">${speaker[0].name}</h2>
+            <p class="profession">${speaker[0].profession}
+            </p>
+
+            <p class="about-me">${speaker[0].aboutMe}</p>
+          </div>
+        </div>
+        <div class="guestSpeaker">
+          <div class="guestSpeaker-img">
+            <img src="${speaker[1].image}" class="quest-img" alt="img">
+          </div>
+          <div class="content">
+            <h2 class="name">${speaker[1].name}</h2>
+            <p class="profession">${speaker[1].profession}</p>
+
+            <p class="about-me">${speaker[1].aboutMe}</p>
+          </div>
+        </div>
+    </div>
     </div>
 `;
+
+const toggleCard = () => {
+  const cards = document.querySelector('.show');
+  cards.classList.toggle('display');
+
+  if (seeMoreBtn.innerHTML === 'SEE MORE') {
+    seeMoreBtn.innerHTML = 'SEE LESS';
+  } else {
+    seeMoreBtn.innerHTML = 'SEE MORE';
+  }
+};
+
+seeMoreBtn.addEventListener('click', toggleCard);

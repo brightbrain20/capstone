@@ -292,7 +292,7 @@ hr {
 
 .quest-img {
   height: 110px;
-  width: 150px;
+  width: 110px;
 }
 
 .name {
@@ -301,9 +301,9 @@ hr {
 
 .profession {
   color: #ec5242;
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 /* ........partner..... */
@@ -328,6 +328,24 @@ hr {
   padding: 30px 0 30px 30px;
   color: #ec5242;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.speakers.display {
+  display: none;
+}
+
+.seeMoreBTN {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.seemore {
+  background-color: #fff;
+  color: black;
+  font-size: 15px;
+  padding: 12px 140px;
+  border: 1px solid gray;
 }
 
 footer {
@@ -473,8 +491,8 @@ footer {
   }
 
   .quest-img {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 200px;
   }
 
   .name {
@@ -482,7 +500,7 @@ footer {
   }
 
   .profession {
-    font-size: 13px;
+    font-size: 18px;
     padding-bottom: 5px;
   }
 
@@ -511,6 +529,14 @@ footer {
 
   .partner-li {
     padding: 30px 0;
+  }
+
+  .speakers.display {
+    display: block;
+  }
+
+  .seemore {
+    display: none;
   }
 
   footer {
