@@ -136,7 +136,7 @@ Alternatively, you can just download the complete zip file and extract the folde
 Step 2:
 Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
-- [video Link](https://www.loom.com/share/22f8f244ad8b4baa81dc385bb42b3b28)
+- [video Link](https://www.loom.com/share/d415992862654b4e8bdf5a0607a6cce5)
 
 
 <!-- AUTHORS -->
