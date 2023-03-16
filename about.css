@@ -355,10 +355,6 @@ footer {
     height: 30px;
   }
 
-  .headline {
-   /* height: 600px; */
-  }
-
   .headline-p {
     display: none;
   }
@@ -406,13 +402,11 @@ footer {
     margin: auto;
   }
 
-   .summit-logo {
-      padding: 30px;
-      font-size: 40px;
-      width: 40%;
-    } 
-
-  
+  .summit-logo {
+    padding: 30px;
+    font-size: 40px;
+    width: 40%;
+  }
 
   .partner {
     padding: 30px;

@@ -14,7 +14,7 @@
 }
 
 .contact-ul {
-  display: flex;F
+  display: flex;
   list-style: none;
   gap: 20px;
 }
@@ -178,7 +178,6 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
-  
 }
 
 .headline-p {
@@ -275,6 +274,10 @@ hr {
 }
 
 /* ......Feature..... */
+.feature-container.box {
+  display: none;
+}
+
 .feature-h2 {
   text-align: center;
   padding-bottom: 5px;
@@ -398,15 +401,10 @@ footer {
     margin-left: 150px;
   }
 
-  .headline-p {
-   /* padding-top: 50px; */
-  }
-
-
   h1 {
-  font-size: 70px;
+    font-size: 70px;
   }
-  
+
   .headline-summary {
     font-size: 26px;
     width: 65%;
@@ -496,8 +494,12 @@ footer {
     margin: auto;
   }
 
-  .speakers {
-    margin-left: 100px;
+  .feature-container.box {
+    display: flex;
+  }
+
+  .speakers.display.show {
+    display: none;
   }
 
   .guestSpeaker {
