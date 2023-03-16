@@ -14,7 +14,7 @@
 }
 
 .contact-ul {
-  display: flex;
+  display: flex;F
   list-style: none;
   gap: 20px;
 }
@@ -76,7 +76,7 @@ a:hover {
   margin-bottom: 500px;
 }
 
-.nav {
+nav {
   display: none;
 }
 
@@ -178,6 +178,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
+  
 }
 
 .headline-p {
@@ -220,7 +221,7 @@ h2 {
   background-color: black;
 }
 
-h3 {
+.activities {
   color: #fff;
   padding-top: 50px;
   text-align: center;
@@ -366,7 +367,7 @@ footer {
     display: none;
   }
 
-  .nav {
+  nav {
     display: block;
   }
 
@@ -389,13 +390,26 @@ footer {
     height: 200px;
   }
 
+  .headline {
+    height: 600px;
+  }
+
   .headline-container {
     margin-left: 150px;
   }
 
+  .headline-p {
+   /* padding-top: 50px; */
+  }
+
+
+  h1 {
+  font-size: 70px;
+  }
+  
   .headline-summary {
-    font-size: 18px;
-    width: 50%;
+    font-size: 26px;
+    width: 65%;
     border: 3px solid #d3d3d3;
     margin-top: 10px;
     padding: 10px;

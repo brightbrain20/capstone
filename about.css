@@ -76,7 +76,7 @@ a:hover {
   margin-bottom: 500px;
 }
 
-.nav {
+nav {
   display: none;
 }
 
@@ -311,7 +311,7 @@ footer {
     display: none;
   }
 
-  .nav {
+  nav {
     display: block;
   }
 

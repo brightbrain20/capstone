@@ -20,7 +20,7 @@ guestSpeacker.innerHTML = `
 <h2 class="feature-h2">Featured Speakers</h2>
     <hr class="feature-hr">
     <div class="feature-container">
-    
+     
       <div >
         <div class="guestSpeaker">
           <div class="guestSpeaker-img">
