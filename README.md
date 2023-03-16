@@ -19,17 +19,18 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
-<!-- <div align="center">
+<div align="center">
+ 
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <h3><b>Educational Resources summit 2023</b></h3>
 
-  <h3><b>Microverse README Template</b></h3>
-
-</div> -->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -52,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -61,68 +62,64 @@ After you're finished please remove all the comments and instructions!
 
 
 
-**[conference setup]** setting up the home page and about me page.
 
-## 🛠 Built With
- <a name="built-with">Html</a>
- <a name="built-with">CSS</a>
-<a name="built-with">JavaScript</a>
+**[Educational Resources]** This project is an amaizing  project as it contains the home page and the about me page and the feature section was bilit dynamically. Go ahead and check it out and don't hesitate to reach out to me if you would love somthing as cool as that on your Website or would want to build a website .
 
-- Terminologies
-  - [ ] Github
-  - [ ] Linters
-  - [ ] WebHint
-  - [ ] Stylelint
-  - [ ] ESlint
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
 
-<!-- ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a>HTML</a></li>
+    <li><a>CSS</a></li>
+    <li><a>JAVASCRIPT</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a>N/A</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a>N/A</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
-<!-- ### Key Features <a name="key-features"></a> -->
-
-### Description 
-
- > This project is an amaizing  project as it contains the home page and the about me page and the feature section was bilit dynamically. Go ahead and check it out and don't hesitate to reach out to me if you would love somthing as cool as that on your Website or would want to build a website .
+### Key Features <a name="key-features"></a>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
-<!--LOOM LIVE DEMO -->
+- **[the project is responsive]**
+- **[some of the content are generated dynamically]**
+- **[it contains two pages (the home and about page)]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-
 
 - [Live Demo Link](https://brightbrain20.github.io/capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
 
 step 1:
 Clone this repo locally using git in the command line and the following command
@@ -136,14 +133,90 @@ Alternatively, you can just download the complete zip file and extract the folde
 Step 2:
 Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
-- [video Link](https://www.loom.com/share/22f8f244ad8b4baa81dc385bb42b3b28)
+- [video Link](https://www.loom.com/share/d415992862654b4e8bdf5a0607a6cce5)
 
+
+### Prerequisites
+
+In order to run this project you need:
+- A working laptop
+- A basic idea on HTML, CSS AND JS
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+- run ` git clone https://github.com/brightbrain20/capstone.git`
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+- `npm install`
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+- run this project on any liveserver
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+- ` npx hint . `
+- `npx stylelint "**/*.{css,scss}"`
+- `npx eslint .`
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+- the project has already been deployed with github pages.
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-<!-- > Mention all of the collaborators of this project. -->
 
 👤 **BRIGHT .C. EZEAMAKA**
 
@@ -152,25 +225,22 @@ Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 - LinkedIn: [bright-ezeamaka](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Below are features  i will add later:
+Below are features  i will add later:
 
 - [ ] **[Aminations on the event section]**
 - [ ] **[make the header section fixed]**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
 
 Contributions, issues, and feature requests are welcome!
 
@@ -179,7 +249,10 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-Give a ⭐️ if you like this project!
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly give a star to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,19 +260,22 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+
 > I would like to thank: 
 - [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)[Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<!-- FAQ (optional) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
- ## 📝 License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/brightbrain20/capstone/blob/master/licence) licensed. 
 
 
-<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
